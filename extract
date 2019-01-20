@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for old
+do
+    fname="${old##*/}"
+    new="${fname%z}"
+    cp "$old" "$new.gz"
+    gzip -d "$new.gz"
+done

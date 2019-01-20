@@ -1,0 +1,8 @@
+#!/bin/sh
+
+for old
+do
+    gzip "$old"
+    cp "$old" "../$old.gz"
+    gzip -d "$old.gz"
+done
