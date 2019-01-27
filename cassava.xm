@@ -14000,7 +14000,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </INSTRUMENT_EFFECTS>
 </INSTRUMENT>
 <CONTROLLER>
-<par name="pitchwheel_bendrange" value="200" />
+<par name="pitchwheel_bendrange" value="100" />
 <par name="pitchwheel_bendrange_down" value="0" />
 <par_bool name="pitchwheel_split" value="no" />
 <par_bool name="expression_receive" value="yes" />
