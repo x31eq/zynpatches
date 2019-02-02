@@ -2,7 +2,9 @@
 
 for old
 do
-    gzip "$old"
-    cp "$old" "../$old.gz"
-    gzip -d "$old.gz"
+    fname="${old##*/}"
+    new="${fname%z}"
+    gzip "$new"
+    cp "$new.gz" "$old"
+    gzip -d "$new.gz"
 done
