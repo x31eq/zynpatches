@@ -33,9 +33,9 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="90" />
+<par name="volume" value="100" />
 <par name="panning" value="64" />
-<par name="velocity_sensing" value="64" />
+<par name="velocity_sensing" value="121" />
 <par name="fadein_adjustment" value="20" />
 <par name="punch_strength" value="0" />
 <par name="punch_time" value="60" />
@@ -102,12 +102,12 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </FREQUENCY_LFO>
 </FREQUENCY_PARAMETERS>
 <FILTER_PARAMETERS>
-<par name="velocity_sensing_amplitude" value="64" />
-<par name="velocity_sensing" value="64" />
+<par name="velocity_sensing_amplitude" value="127" />
+<par name="velocity_sensing" value="127" />
 <FILTER>
 <par name="category" value="0" />
 <par name="type" value="2" />
-<par_real name="basefreq" value="9721.98" exact_value="0x4617E7E9" />
+<par_real name="basefreq" value="3872.12" exact_value="0x457201F8" />
 <par_real name="baseq" value="1.08427" exact_value="0x3F8AC956" />
 <par name="stages" value="0" />
 <par_real name="freq_tracking" value="98.4375" exact_value="0x42C4E000" />
@@ -379,7 +379,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="par" value="46" />
 </par_no>
 <par_no id="4">
-<par name="par" value="71" />
+<par name="par" value="54" />
 </par_no>
 <par_no id="5">
 <par name="par" value="12" />
