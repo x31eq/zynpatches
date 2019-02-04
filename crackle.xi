@@ -31,7 +31,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="send_to_instrument_effect" value="0" />
 <par_bool name="add_enabled" value="yes" />
 <ADD_SYNTH_PARAMETERS>
-<par_bool name="stereo" value="yes" />
+<par_bool name="stereo" value="no" />
 <AMPLITUDE_PARAMETERS>
 <par name="volume" value="100" />
 <par name="panning" value="64" />
