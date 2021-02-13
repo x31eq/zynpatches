@@ -28,8 +28,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <SCALE>
 <par name="scale_shift" value="0" />
 <par name="first_key" value="0" />
-<par name="last_key" value="120" />
-<par name="middle_note" value="52" />
+<par name="last_key" value="121" />
+<par name="middle_note" value="56" />
 <OCTAVE>
 <par name="octave_size" value="120" />
 <DEGREE id="0">
@@ -69,13 +69,13 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="1.5014" exact_value="0x3FC02DC3" />
 </DEGREE>
 <DEGREE id="12">
-<par_real name="cents" value="1.58257" exact_value="0x3FCA918F" />
+<par_real name="cents" value="1.58257" exact_value="0x3FCA9190" />
 </DEGREE>
 <DEGREE id="13">
 <par_real name="cents" value="1.63641" exact_value="0x3FD175C2" />
 </DEGREE>
 <DEGREE id="14">
-<par_real name="cents" value="1.69208" exact_value="0x3FD89601" />
+<par_real name="cents" value="1.69208" exact_value="0x3FD89602" />
 </DEGREE>
 <DEGREE id="15">
 <par_real name="cents" value="1.74964" exact_value="0x3FDFF450" />
@@ -111,7 +111,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="2.4569" exact_value="0x401D3DC8" />
 </DEGREE>
 <DEGREE id="26">
-<par_real name="cents" value="2.54048" exact_value="0x40229738" />
+<par_real name="cents" value="2.54048" exact_value="0x40229739" />
 </DEGREE>
 <DEGREE id="27">
 <par_real name="cents" value="2.62691" exact_value="0x40281F44" />
@@ -126,13 +126,13 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="2.90424" exact_value="0x4039DF0C" />
 </DEGREE>
 <DEGREE id="31">
-<par_real name="cents" value="2.96053" exact_value="0x403D795D" />
+<par_real name="cents" value="2.96053" exact_value="0x403D795E" />
 </DEGREE>
 <DEGREE id="32">
-<par_real name="cents" value="3.06125" exact_value="0x4043EB85" />
+<par_real name="cents" value="3.06125" exact_value="0x4043EB86" />
 </DEGREE>
 <DEGREE id="33">
-<par_real name="cents" value="3.1654" exact_value="0x404A95D9" />
+<par_real name="cents" value="3.1654" exact_value="0x404A95DA" />
 </DEGREE>
 <DEGREE id="34">
 <par_real name="cents" value="3.27308" exact_value="0x40517A38" />
@@ -198,7 +198,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="6.54671" exact_value="0x40D17EA7" />
 </DEGREE>
 <DEGREE id="55">
-<par_real name="cents" value="6.67361" exact_value="0x40D58E30" />
+<par_real name="cents" value="6.67361" exact_value="0x40D58E33" />
 </DEGREE>
 <DEGREE id="56">
 <par_real name="cents" value="6.90065" exact_value="0x40DCD21B" />
@@ -279,13 +279,13 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="16.0846" exact_value="0x4180AD39" />
 </DEGREE>
 <DEGREE id="82">
-<par_real name="cents" value="16.6318" exact_value="0x41850DE5" />
+<par_real name="cents" value="16.6318" exact_value="0x41850DE8" />
 </DEGREE>
 <DEGREE id="83">
-<par_real name="cents" value="17.1976" exact_value="0x418994B3" />
+<par_real name="cents" value="17.1976" exact_value="0x418994B6" />
 </DEGREE>
 <DEGREE id="84">
-<par_real name="cents" value="17.7827" exact_value="0x418E42EE" />
+<par_real name="cents" value="17.7827" exact_value="0x418E42F2" />
 </DEGREE>
 <DEGREE id="85">
 <par_real name="cents" value="18.3876" exact_value="0x419319E7" />
@@ -342,10 +342,10 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="33.2663" exact_value="0x420510B8" />
 </DEGREE>
 <DEGREE id="103">
-<par_real name="cents" value="34.3981" exact_value="0x4209979C" />
+<par_real name="cents" value="34.3981" exact_value="0x4209979F" />
 </DEGREE>
 <DEGREE id="104">
-<par_real name="cents" value="35.5683" exact_value="0x420E45F1" />
+<par_real name="cents" value="35.5683" exact_value="0x420E45F4" />
 </DEGREE>
 <DEGREE id="105">
 <par_real name="cents" value="36.2577" exact_value="0x421107EB" />
@@ -354,22 +354,22 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="37.4912" exact_value="0x4215F709" />
 </DEGREE>
 <DEGREE id="107">
-<par_real name="cents" value="38.7667" exact_value="0x421B111C" />
+<par_real name="cents" value="38.7667" exact_value="0x421B111F" />
 </DEGREE>
 <DEGREE id="108">
-<par_real name="cents" value="40.0856" exact_value="0x422057A1" />
+<par_real name="cents" value="40.0856" exact_value="0x422057A4" />
 </DEGREE>
 <DEGREE id="109">
-<par_real name="cents" value="41.4493" exact_value="0x4225CC18" />
+<par_real name="cents" value="41.4493" exact_value="0x4225CC1C" />
 </DEGREE>
 <DEGREE id="110">
-<par_real name="cents" value="43.6902" exact_value="0x422EC2BC" />
+<par_real name="cents" value="43.6902" exact_value="0x422EC2C0" />
 </DEGREE>
 <DEGREE id="111">
-<par_real name="cents" value="45.1765" exact_value="0x4234B4C7" />
+<par_real name="cents" value="45.1766" exact_value="0x4234B4CB" />
 </DEGREE>
 <DEGREE id="112">
-<par_real name="cents" value="46.7135" exact_value="0x423ADA99" />
+<par_real name="cents" value="46.7135" exact_value="0x423ADA9D" />
 </DEGREE>
 <DEGREE id="113">
 <par_real name="cents" value="48.3027" exact_value="0x424135EE" />
@@ -394,7 +394,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </DEGREE>
 </OCTAVE>
 <KEYBOARD_MAPPING>
-<par name="map_size" value="116" />
+<par name="map_size" value="120" />
 <par name="mapping_enabled" value="1" />
 <KEYMAP id="0">
 <par name="degree" value="0" />
@@ -743,6 +743,18 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </KEYMAP>
 <KEYMAP id="115">
 <par name="degree" value="115" />
+</KEYMAP>
+<KEYMAP id="116">
+<par name="degree" value="116" />
+</KEYMAP>
+<KEYMAP id="117">
+<par name="degree" value="117" />
+</KEYMAP>
+<KEYMAP id="118">
+<par name="degree" value="118" />
+</KEYMAP>
+<KEYMAP id="119">
+<par name="degree" value="119" />
 </KEYMAP>
 </KEYBOARD_MAPPING>
 </SCALE>
