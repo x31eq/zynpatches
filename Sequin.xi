@@ -16,7 +16,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <INFO>
 <string name="name">Sequin</string>
 <string name="author">Graham Breed</string>
-<string name="comments">Velveteen made percussive</string>
+<string name="comments">Velveteen made percussive or plucky</string>
 <par name="type" value="15" />
 </INFO>
 <INSTRUMENT_KIT>
@@ -33,7 +33,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="92" />
+<par name="volume" value="90" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="124" />
 <par name="fadein_adjustment" value="20" />
@@ -49,8 +49,8 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="39" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="5" />
-<par name="D_dt" value="53" />
+<par name="A_dt" value="0" />
+<par name="D_dt" value="40" />
 <par name="R_dt" value="25" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
@@ -58,7 +58,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
 <par name="lfo_type" value="0" />
@@ -90,7 +90,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
 <par name="lfo_type" value="0" />
@@ -129,7 +129,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
 <par name="lfo_type" value="0" />
@@ -1033,7 +1033,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="118" />
+<par name="volume" value="100" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="120" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -1044,9 +1044,9 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="39" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="5" />
-<par name="D_dt" value="53" />
-<par name="R_dt" value="25" />
+<par name="A_dt" value="0" />
+<par name="D_dt" value="100" />
+<par name="R_dt" value="100" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="70" />
@@ -1065,7 +1065,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.538701" exact_value="0x3F09E84F" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="0" />
 <par name="lfo_type" value="3" />
@@ -1078,7 +1078,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="54" />
+<par name="volume" value="90" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="98" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -1196,7 +1196,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="115" />
+<par name="volume" value="100" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -1213,7 +1213,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.638701" exact_value="0x3F2381E9" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="13" />
 <par name="start_phase" value="0" />
 <par name="lfo_type" value="4" />
@@ -1269,22 +1269,22 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </HARMONICS>
 <AMPLITUDE_PARAMETERS>
 <par_bool name="stereo" value="yes" />
-<par name="volume" value="104" />
+<par name="volume" value="86" />
 <par name="panning" value="64" />
-<par name="velocity_sensing" value="51" />
+<par name="velocity_sensing" value="90" />
 <AMPLITUDE_ENVELOPE>
 <par_bool name="free_mode" value="no" />
 <par name="env_points" value="4" />
 <par name="env_sustain" value="2" />
-<par name="env_stretch" value="83" />
+<par name="env_stretch" value="39" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="2" />
-<par name="D_dt" value="8" />
-<par name="R_dt" value="78" />
+<par name="A_dt" value="0" />
+<par name="D_dt" value="34" />
+<par name="R_dt" value="25" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
-<par name="S_val" value="79" />
+<par name="S_val" value="36" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 </AMPLITUDE_PARAMETERS>
@@ -1311,9 +1311,9 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="17" />
+<par name="A_dt" value="70" />
 <par name="D_dt" value="10" />
-<par name="R_dt" value="81" />
+<par name="R_dt" value="60" />
 <par name="A_val" value="81" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
