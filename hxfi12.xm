@@ -2,7 +2,7 @@
 <?xml version="1.0f" encoding="UTF-8"?>
 <!DOCTYPE ZynAddSubFX-data>
 <ZynAddSubFX-data version-major="3" version-minor="0"
-version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
+version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <INFORMATION />
 <BASE_PARAMETERS>
 <par name="max_midi_parts" value="16" />
@@ -13,7 +13,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="max_addsynth_voices" value="8" />
 </BASE_PARAMETERS>
 <MASTER>
-<par_real name="volume" value="-4.58333" exact_value="0xC092AAAB" />
+<par name="volume" value="80" />
 <par name="key_shift" value="64" />
 <par_bool name="nrpn_receive" value="yes" />
 <MICROTONAL>
@@ -90,7 +90,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="1.93436" exact_value="0x3FF7990D" />
 </DEGREE>
 <DEGREE id="19">
-<par_real name="cents" value="1.97185" exact_value="0x3FFC65AB" />
+<par_real name="cents" value="1.97185" exact_value="0x3FFC65AC" />
 </DEGREE>
 <DEGREE id="20">
 <par_real name="cents" value="2.03894" exact_value="0x40027DEA" />
@@ -129,7 +129,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="2.96053" exact_value="0x403D795E" />
 </DEGREE>
 <DEGREE id="32">
-<par_real name="cents" value="3.06125" exact_value="0x4043EB86" />
+<par_real name="cents" value="3.06125" exact_value="0x4043EB87" />
 </DEGREE>
 <DEGREE id="33">
 <par_real name="cents" value="3.1654" exact_value="0x404A95DA" />
@@ -150,7 +150,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="3.81427" exact_value="0x40741CF4" />
 </DEGREE>
 <DEGREE id="39">
-<par_real name="cents" value="3.94403" exact_value="0x407C6B01" />
+<par_real name="cents" value="3.94403" exact_value="0x407C6B04" />
 </DEGREE>
 <DEGREE id="40">
 <par_real name="cents" value="4.07821" exact_value="0x408280B0" />
@@ -174,10 +174,10 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="4.9142" exact_value="0x409D411B" />
 </DEGREE>
 <DEGREE id="47">
-<par_real name="cents" value="5.08138" exact_value="0x40A29AAE" />
+<par_real name="cents" value="5.08138" exact_value="0x40A29AAF" />
 </DEGREE>
 <DEGREE id="48">
-<par_real name="cents" value="5.3561" exact_value="0x40AB6522" />
+<par_real name="cents" value="5.35609" exact_value="0x40AB6520" />
 </DEGREE>
 <DEGREE id="49">
 <par_real name="cents" value="5.53831" exact_value="0x40B139DD" />
@@ -195,7 +195,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="6.33132" exact_value="0x40CA9A28" />
 </DEGREE>
 <DEGREE id="54">
-<par_real name="cents" value="6.54671" exact_value="0x40D17EA7" />
+<par_real name="cents" value="6.54671" exact_value="0x40D17EA9" />
 </DEGREE>
 <DEGREE id="55">
 <par_real name="cents" value="6.67361" exact_value="0x40D58E33" />
@@ -210,7 +210,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="7.37816" exact_value="0x40EC19E2" />
 </DEGREE>
 <DEGREE id="59">
-<par_real name="cents" value="7.62917" exact_value="0x40F42227" />
+<par_real name="cents" value="7.62917" exact_value="0x40F42225" />
 </DEGREE>
 <DEGREE id="60">
 <par_real name="cents" value="7.88871" exact_value="0x40FC7059" />
@@ -231,7 +231,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="9.50582" exact_value="0x411817D6" />
 </DEGREE>
 <DEGREE id="66">
-<par_real name="cents" value="9.82921" exact_value="0x411D446F" />
+<par_real name="cents" value="9.82921" exact_value="0x411D446D" />
 </DEGREE>
 <DEGREE id="67">
 <par_real name="cents" value="10.1636" exact_value="0x41229E1E" />
@@ -318,7 +318,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="24.9709" exact_value="0x41C7C46E" />
 </DEGREE>
 <DEGREE id="95">
-<par_real name="cents" value="25.8204" exact_value="0x41CE9039" />
+<par_real name="cents" value="25.8204" exact_value="0x41CE9035" />
 </DEGREE>
 <DEGREE id="96">
 <par_real name="cents" value="26.6988" exact_value="0x41D5973E" />
@@ -366,10 +366,10 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="43.6902" exact_value="0x422EC2C0" />
 </DEGREE>
 <DEGREE id="111">
-<par_real name="cents" value="45.1766" exact_value="0x4234B4CB" />
+<par_real name="cents" value="45.1766" exact_value="0x4234B4CF" />
 </DEGREE>
 <DEGREE id="112">
-<par_real name="cents" value="46.7135" exact_value="0x423ADA9D" />
+<par_real name="cents" value="46.7135" exact_value="0x423ADAA1" />
 </DEGREE>
 <DEGREE id="113">
 <par_real name="cents" value="48.3027" exact_value="0x424135EE" />
@@ -381,7 +381,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="51.6451" exact_value="0x424E94A1" />
 </DEGREE>
 <DEGREE id="116">
-<par_real name="cents" value="53.4021" exact_value="0x42559BC3" />
+<par_real name="cents" value="53.4021" exact_value="0x42559BBE" />
 </DEGREE>
 <DEGREE id="117">
 <par_real name="cents" value="54.4372" exact_value="0x4259BFBB" />
@@ -390,7 +390,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="56.2892" exact_value="0x4261282B" />
 </DEGREE>
 <DEGREE id="119">
-<par_real name="cents" value="58.2042" exact_value="0x4268D11F" />
+<par_real name="cents" value="58.2042" exact_value="0x4268D11A" />
 </DEGREE>
 </OCTAVE>
 <KEYBOARD_MAPPING>
@@ -764,7 +764,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="0" exact_value="0x00000000" />
+<par name="volume" value="96" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -797,7 +797,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par_real name="volume" value="9.5412" exact_value="0x4118A8C4" />
+<par name="volume" value="90" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="124" />
 <par name="fadein_adjustment" value="20" />
@@ -813,24 +813,22 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="39" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par_bool name="repeating_envelope" value="no" />
-<par_real name="A_dt" value="0.00387455" exact_value="0x3B7DEC29" />
-<par_real name="D_dt" value="0.311751" exact_value="0x3E9F9DDD" />
-<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
+<par name="A_dt" value="0" />
+<par name="D_dt" value="40" />
+<par name="R_dt" value="25" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="59" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
-<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par_real name="delay" value="0" exact_value="0x00000000" />
+<par name="delay" value="0" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -847,24 +845,22 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par_bool name="repeating_envelope" value="no" />
-<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
-<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
-<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
+<par name="A_dt" value="50" />
+<par name="D_dt" value="10" />
+<par name="R_dt" value="60" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
-<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par_real name="delay" value="0" exact_value="0x00000000" />
+<par name="delay" value="0" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -888,24 +884,22 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par_bool name="repeating_envelope" value="no" />
-<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
-<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
-<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
+<par name="A_dt" value="40" />
+<par name="D_dt" value="70" />
+<par name="R_dt" value="60" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
-<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par_real name="delay" value="0" exact_value="0x00000000" />
+<par name="delay" value="0" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -1803,7 +1797,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par_real name="volume" value="-4.25197" exact_value="0xC0881024" />
+<par name="volume" value="100" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="120" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -1814,10 +1808,9 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="39" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par_bool name="repeating_envelope" value="no" />
-<par_real name="A_dt" value="0.00387455" exact_value="0x3B7DEC29" />
-<par_real name="D_dt" value="0.311751" exact_value="0x3E9F9DDD" />
-<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
+<par name="A_dt" value="0" />
+<par name="D_dt" value="100" />
+<par name="R_dt" value="100" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="70" />
@@ -1836,21 +1829,20 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="3.40381" exact_value="0x4059D81A" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="0" />
-<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par_real name="delay" value="0" exact_value="0x00000000" />
+<par name="delay" value="0" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par_real name="volume" value="42.5197" exact_value="0x422A1428" />
+<par name="volume" value="90" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="98" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -1968,7 +1960,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par_real name="volume" value="-5.66929" exact_value="0xC0B56AD8" />
+<par name="volume" value="100" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -1985,14 +1977,13 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="6.89096" exact_value="0x40DC82C4" />
+<par_real name="freq" value="1" exact_value="0x3F800000" />
 <par name="intensity" value="13" />
 <par name="start_phase" value="0" />
-<par name="cutoff" value="127" />
 <par name="lfo_type" value="4" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par_real name="delay" value="0" exact_value="0x00000000" />
+<par name="delay" value="0" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -2042,10 +2033,9 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </HARMONICS>
 <AMPLITUDE_PARAMETERS>
 <par_bool name="stereo" value="yes" />
-<par_real name="volume" value="-6.875" exact_value="0xC0DBFFFE" />
+<par name="volume" value="86" />
 <par name="panning" value="64" />
-<par_real name="velocity_sensing" value="40.1575"
-exact_value="0x4220A142" />
+<par name="velocity_sensing" value="90" />
 <AMPLITUDE_ENVELOPE>
 <par_bool name="free_mode" value="no" />
 <par name="env_points" value="4" />
@@ -2053,13 +2043,12 @@ exact_value="0x4220A142" />
 <par name="env_stretch" value="39" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par_bool name="repeating_envelope" value="no" />
-<par_real name="A_dt" value="0.00387455" exact_value="0x3B7DEC29" />
-<par_real name="D_dt" value="0.0889765" exact_value="0x3DB63955" />
-<par_real name="R_dt" value="1.18233" exact_value="0x3F975689" />
+<par name="A_dt" value="0" />
+<par name="D_dt" value="34" />
+<par name="R_dt" value="25" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
-<par name="S_val" value="52" />
+<par name="S_val" value="36" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 </AMPLITUDE_PARAMETERS>
@@ -2086,10 +2075,9 @@ exact_value="0x4220A142" />
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par_bool name="repeating_envelope" value="no" />
-<par_real name="A_dt" value="0.020447" exact_value="0x3CA7806D" />
-<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
-<par_real name="R_dt" value="2.00347" exact_value="0x400038ED" />
+<par name="A_dt" value="70" />
+<par name="D_dt" value="10" />
+<par name="R_dt" value="60" />
 <par name="A_val" value="81" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
@@ -2184,7 +2172,7 @@ exact_value="0x4220A142" />
 <par name="mod_wheel_depth" value="80" />
 <par_bool name="mod_wheel_exponential" value="no" />
 <par_bool name="fm_amp_receive" value="yes" />
-<par_bool name="volume_receive" value="no" />
+<par_bool name="volume_receive" value="yes" />
 <par_bool name="sustain_receive" value="yes" />
 <par_bool name="portamento_receive" value="yes" />
 <par name="portamento_time" value="64" />
@@ -2251,25 +2239,16 @@ exact_value="0x4220A142" />
 <par name="preset" value="0" />
 <EFFECT_PARAMETERS>
 <par_no id="0">
-<par name="par" value="100" />
+<par name="par" value="65" />
 </par_no>
 <par_no id="2">
 <par name="par" value="33" />
 </par_no>
-<par_no id="3">
-<par name="par" value="0" />
-</par_no>
 <par_no id="7">
 <par name="par" value="127" />
 </par_no>
-<par_no id="8">
-<par name="par" value="0" />
-</par_no>
 <par_no id="9">
 <par name="par" value="106" />
-</par_no>
-<par_no id="10">
-<par name="par" value="0" />
 </par_no>
 <par_no id="11">
 <par name="par" value="30" />
