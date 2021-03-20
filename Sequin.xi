@@ -1078,9 +1078,9 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="90" />
-<par name="volume_damp" value="64" />
-<par name="velocity_sensing" value="98" />
+<par name="volume" value="76" />
+<par name="volume_damp" value="92" />
+<par name="velocity_sensing" value="84" />
 <par_bool name="amp_envelope_enabled" value="no" />
 <MODULATOR>
 <par name="detune" value="8192" />
@@ -1269,9 +1269,9 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </HARMONICS>
 <AMPLITUDE_PARAMETERS>
 <par_bool name="stereo" value="yes" />
-<par name="volume" value="66" />
+<par name="volume" value="52" />
 <par name="panning" value="64" />
-<par name="velocity_sensing" value="90" />
+<par name="velocity_sensing" value="97" />
 <AMPLITUDE_ENVELOPE>
 <par_bool name="free_mode" value="no" />
 <par name="env_points" value="4" />
@@ -1279,8 +1279,8 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="39" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="34" />
+<par name="A_dt" value="35" />
+<par name="D_dt" value="43" />
 <par name="R_dt" value="25" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
@@ -1300,7 +1300,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="overtone_spread_par2" value="0" />
 <par name="overtone_spread_par3" value="0" />
 <par name="detune_type" value="1" />
-<par name="bandwidth" value="101" />
+<par name="bandwidth" value="110" />
 <par name="bandwidth_scale" value="64" />
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="band_width_envelope_enabled" value="yes" />
