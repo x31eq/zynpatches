@@ -177,7 +177,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="5.08138" exact_value="0x40A29AAF" />
 </DEGREE>
 <DEGREE id="48">
-<par_real name="cents" value="5.35609" exact_value="0x40AB6520" />
+<par_real name="cents" value="5.35609" exact_value="0x40AB651F" />
 </DEGREE>
 <DEGREE id="49">
 <par_real name="cents" value="5.53831" exact_value="0x40B139DD" />
@@ -2033,7 +2033,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </HARMONICS>
 <AMPLITUDE_PARAMETERS>
 <par_bool name="stereo" value="yes" />
-<par name="volume" value="86" />
+<par name="volume" value="66" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="90" />
 <AMPLITUDE_ENVELOPE>
@@ -2161,7 +2161,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </INSTRUMENT_EFFECTS>
 </INSTRUMENT>
 <CONTROLLER>
-<par name="pitchwheel_bendrange" value="200" />
+<par name="pitchwheel_bendrange" value="58" />
 <par name="pitchwheel_bendrange_down" value="0" />
 <par_bool name="pitchwheel_split" value="no" />
 <par_bool name="expression_receive" value="yes" />
