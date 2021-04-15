@@ -173,7 +173,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="5.83333" exact_value="0x40BAAAAB" />
+<par_real name="volume" value="12.9167" exact_value="0x414EAAAB" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -1582,7 +1582,7 @@ exact_value="0x4220A142" />
 </INSTRUMENT_EFFECTS>
 </INSTRUMENT>
 <CONTROLLER>
-<par name="pitchwheel_bendrange" value="58" />
+<par name="pitchwheel_bendrange" value="78" />
 <par name="pitchwheel_bendrange_down" value="0" />
 <par_bool name="pitchwheel_split" value="no" />
 <par_bool name="expression_receive" value="yes" />
