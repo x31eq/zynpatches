@@ -17,8 +17,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="key_shift" value="64" />
 <par_bool name="nrpn_receive" value="yes" />
 <MICROTONAL>
-<string name="name">andromeda on C with fourths from Pythagorean B tuned to biased 11-limit POTE</string>
-<string name="comment">andromeda on C with fourths from Pythagorean B tuned to biased 11-limit POTE</string>
+<string name="name">andromeda on C with fourths symmetrically from D tuned to biased 11-limit TE</string>
+<string name="comment">andromeda on C with fourths symmetrically from D tuned to biased 11-limit TE</string>
 <par_bool name="invert_up_down" value="no" />
 <par name="invert_up_down_center" value="60" />
 <par_bool name="enabled" value="yes" />
@@ -33,91 +33,91 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <OCTAVE>
 <par name="octave_size" value="29" />
 <DEGREE id="0">
-<par_real name="cents" value="1.03367" exact_value="0x3F844F6B" />
+<par_real name="cents" value="1.01755" exact_value="0x3F823F25" />
 </DEGREE>
 <DEGREE id="1">
-<par_real name="cents" value="1.05181" exact_value="0x3F86A1C5" />
+<par_real name="cents" value="1.05183" exact_value="0x3F86A23B" />
 </DEGREE>
 <DEGREE id="2">
-<par_real name="cents" value="1.08723" exact_value="0x3F8B2A5C" />
+<par_real name="cents" value="1.07029" exact_value="0x3F88FF2E" />
 </DEGREE>
 <DEGREE id="3">
-<par_real name="cents" value="1.10631" exact_value="0x3F8D9B82" />
+<par_real name="cents" value="1.10634" exact_value="0x3F8D9C7E" />
 </DEGREE>
 <DEGREE id="4">
-<par_real name="cents" value="1.12572" exact_value="0x3F90179F" />
+<par_real name="cents" value="1.12576" exact_value="0x3F9018CB" />
 </DEGREE>
 <DEGREE id="5">
-<par_real name="cents" value="1.16363" exact_value="0x3F94F1C4" />
+<par_real name="cents" value="1.14552" exact_value="0x3F92A044" />
 </DEGREE>
 <DEGREE id="6">
-<par_real name="cents" value="1.18405" exact_value="0x3F978ED7" />
+<par_real name="cents" value="1.1841" exact_value="0x3F979096" />
 </DEGREE>
 <DEGREE id="7">
-<par_real name="cents" value="1.22392" exact_value="0x3F9CA957" />
+<par_real name="cents" value="1.20488" exact_value="0x3F9A399D" />
 </DEGREE>
 <DEGREE id="8">
-<par_real name="cents" value="1.24539" exact_value="0x3F9F6914" />
+<par_real name="cents" value="1.24547" exact_value="0x3F9F6B75" />
 </DEGREE>
 <DEGREE id="9">
-<par_real name="cents" value="1.26725" exact_value="0x3FA2352B" />
+<par_real name="cents" value="1.26733" exact_value="0x3FA237C8" />
 </DEGREE>
 <DEGREE id="10">
-<par_real name="cents" value="1.30992" exact_value="0x3FA7AB79" />
+<par_real name="cents" value="1.28957" exact_value="0x3FA510AD" />
 </DEGREE>
 <DEGREE id="11">
-<par_real name="cents" value="1.33291" exact_value="0x3FAA9CAA" />
+<par_real name="cents" value="1.33301" exact_value="0x3FAAA005" />
 </DEGREE>
 <DEGREE id="12">
-<par_real name="cents" value="1.37779" exact_value="0x3FB05B6B" />
+<par_real name="cents" value="1.35641" exact_value="0x3FAD9EB0" />
 </DEGREE>
 <DEGREE id="13">
-<par_real name="cents" value="1.40197" exact_value="0x3FB373A2" />
+<par_real name="cents" value="1.40209" exact_value="0x3FB377C6" />
 </DEGREE>
 <DEGREE id="14">
-<par_real name="cents" value="1.44918" exact_value="0x3FB97E97" />
+<par_real name="cents" value="1.4267" exact_value="0x3FB69E2D" />
 </DEGREE>
 <DEGREE id="15">
-<par_real name="cents" value="1.4746" exact_value="0x3FBCBFD9" />
+<par_real name="cents" value="1.47476" exact_value="0x3FBCC4D8" />
 </DEGREE>
 <DEGREE id="16">
-<par_real name="cents" value="1.50048" exact_value="0x3FC00FC3" />
+<par_real name="cents" value="1.50064" exact_value="0x3FC0150B" />
 </DEGREE>
 <DEGREE id="17">
-<par_real name="cents" value="1.55101" exact_value="0x3FC68764" />
+<par_real name="cents" value="1.52698" exact_value="0x3FC37420" />
 </DEGREE>
 <DEGREE id="18">
-<par_real name="cents" value="1.57822" exact_value="0x3FCA033B" />
+<par_real name="cents" value="1.57842" exact_value="0x3FCA0981" />
 </DEGREE>
 <DEGREE id="19">
-<par_real name="cents" value="1.63137" exact_value="0x3FD0D0A5" />
+<par_real name="cents" value="1.60612" exact_value="0x3FCD9552" />
 </DEGREE>
 <DEGREE id="20">
-<par_real name="cents" value="1.65999" exact_value="0x3FD47AB2" />
+<par_real name="cents" value="1.66022" exact_value="0x3FD48204" />
 </DEGREE>
 <DEGREE id="21">
-<par_real name="cents" value="1.68912" exact_value="0x3FD8352D" />
+<par_real name="cents" value="1.68936" exact_value="0x3FD83CE1" />
 </DEGREE>
 <DEGREE id="22">
-<par_real name="cents" value="1.746" exact_value="0x3FDF7CFD" />
+<par_real name="cents" value="1.71901" exact_value="0x3FDC0881" />
 </DEGREE>
 <DEGREE id="23">
-<par_real name="cents" value="1.77664" exact_value="0x3FE368EB" />
+<par_real name="cents" value="1.77691" exact_value="0x3FE371CC" />
 </DEGREE>
 <DEGREE id="24">
-<par_real name="cents" value="1.83647" exact_value="0x3FEB114C" />
+<par_real name="cents" value="1.8081" exact_value="0x3FE76FC7" />
 </DEGREE>
 <DEGREE id="25">
-<par_real name="cents" value="1.86869" exact_value="0x3FEF313E" />
+<par_real name="cents" value="1.869" exact_value="0x3FEF3B6E" />
 </DEGREE>
 <DEGREE id="26">
-<par_real name="cents" value="1.90148" exact_value="0x3FF363B8" />
+<par_real name="cents" value="1.90181" exact_value="0x3FF36E60" />
 </DEGREE>
 <DEGREE id="27">
-<par_real name="cents" value="1.96551" exact_value="0x3FFB95DA" />
+<par_real name="cents" value="1.96586" exact_value="0x3FFBA16D" />
 </DEGREE>
 <DEGREE id="28">
-<par_real name="cents" value="2" exact_value="0x40000000" />
+<par_real name="cents" value="2.00037" exact_value="0x4000060A" />
 </DEGREE>
 </OCTAVE>
 <KEYBOARD_MAPPING>
@@ -167,7 +167,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="5.83333" exact_value="0x40BAAAAB" />
+<par_real name="volume" value="12.9167" exact_value="0x414EAAAB" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
