@@ -1576,7 +1576,7 @@ exact_value="0x4220A142" />
 </INSTRUMENT_EFFECTS>
 </INSTRUMENT>
 <CONTROLLER>
-<par name="pitchwheel_bendrange" value="58" />
+<par name="pitchwheel_bendrange" value="88" />
 <par name="pitchwheel_bendrange_down" value="0" />
 <par_bool name="pitchwheel_split" value="no" />
 <par_bool name="expression_receive" value="yes" />
@@ -3013,7 +3013,7 @@ exact_value="0x4220A142" />
 </INSTRUMENT_EFFECTS>
 </INSTRUMENT>
 <CONTROLLER>
-<par name="pitchwheel_bendrange" value="200" />
+<par name="pitchwheel_bendrange" value="88" />
 <par name="pitchwheel_bendrange_down" value="0" />
 <par_bool name="pitchwheel_split" value="no" />
 <par_bool name="expression_receive" value="yes" />
