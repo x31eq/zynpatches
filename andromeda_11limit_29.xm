@@ -102,7 +102,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="1.71901" exact_value="0x3FDC0881" />
 </DEGREE>
 <DEGREE id="23">
-<par_real name="cents" value="1.77691" exact_value="0x3FE371CC" />
+<par_real name="cents" value="1.77691" exact_value="0x3FE371CD" />
 </DEGREE>
 <DEGREE id="24">
 <par_real name="cents" value="1.8081" exact_value="0x3FE76FC7" />
@@ -167,7 +167,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="12.9167" exact_value="0x414EAAAB" />
+<par_real name="volume" value="5.83333" exact_value="0x40BAAAAB" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
