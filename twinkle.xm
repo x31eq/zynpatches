@@ -23,10 +23,10 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="invert_up_down_center" value="60" />
 <par_bool name="enabled" value="yes" />
 <par name="global_fine_detune" value="64" />
-<par name="a_note" value="69" />
-<par_real name="a_freq" value="440" exact_value="0x43DC0000" />
+<par name="a_note" value="60" />
+<par_real name="a_freq" value="264" exact_value="0x43840000" />
 <SCALE>
-<par name="scale_shift" value="71" />
+<par name="scale_shift" value="64" />
 <par name="first_key" value="0" />
 <par name="last_key" value="127" />
 <par name="middle_note" value="60" />
