@@ -24,7 +24,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="enabled" value="yes" />
 <par name="global_fine_detune" value="64" />
 <par name="a_note" value="60" />
-<par_real name="a_freq" value="264" exact_value="0x43840000" />
+<par_real name="a_freq" value="528" exact_value="0x44040000" />
 <SCALE>
 <par name="scale_shift" value="64" />
 <par name="first_key" value="0" />
