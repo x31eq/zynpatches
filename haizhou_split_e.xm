@@ -1588,7 +1588,7 @@ exact_value="0x4220A142" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
 <par name="key_shift" value="64" />
-<par name="rcv_chn" value="4" />
+<par name="rcv_chn" value="2" />
 <par name="velocity_sensing" value="64" />
 <par name="velocity_offset" value="64" />
 <par_bool name="note_on" value="yes" />
