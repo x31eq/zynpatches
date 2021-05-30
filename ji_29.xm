@@ -37,16 +37,16 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="denominator" value="32" />
 </DEGREE>
 <DEGREE id="1">
-<par name="numerator" value="55" />
-<par name="denominator" value="52" />
+<par name="numerator" value="135" />
+<par name="denominator" value="128" />
 </DEGREE>
 <DEGREE id="2">
 <par name="numerator" value="13" />
 <par name="denominator" value="12" />
 </DEGREE>
 <DEGREE id="3">
-<par name="numerator" value="231" />
-<par name="denominator" value="208" />
+<par name="numerator" value="10" />
+<par name="denominator" value="9" />
 </DEGREE>
 <DEGREE id="4">
 <par name="numerator" value="9" />
@@ -57,20 +57,20 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="denominator" value="6" />
 </DEGREE>
 <DEGREE id="6">
-<par name="numerator" value="495" />
-<par name="denominator" value="416" />
+<par name="numerator" value="1215" />
+<par name="denominator" value="1024" />
 </DEGREE>
 <DEGREE id="7">
-<par name="numerator" value="11" />
-<par name="denominator" value="9" />
+<par name="numerator" value="39" />
+<par name="denominator" value="32" />
 </DEGREE>
 <DEGREE id="8">
 <par name="numerator" value="5" />
 <par name="denominator" value="4" />
 </DEGREE>
 <DEGREE id="9">
-<par name="numerator" value="33" />
-<par name="denominator" value="26" />
+<par name="numerator" value="81" />
+<par name="denominator" value="64" />
 </DEGREE>
 <DEGREE id="10">
 <par name="numerator" value="21" />
@@ -93,8 +93,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="denominator" value="9" />
 </DEGREE>
 <DEGREE id="15">
-<par name="numerator" value="77" />
-<par name="denominator" value="52" />
+<par name="numerator" value="189" />
+<par name="denominator" value="128" />
 </DEGREE>
 <DEGREE id="16">
 <par name="numerator" value="3" />
@@ -105,28 +105,28 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="denominator" value="64" />
 </DEGREE>
 <DEGREE id="18">
-<par name="numerator" value="165" />
-<par name="denominator" value="104" />
+<par name="numerator" value="405" />
+<par name="denominator" value="256" />
 </DEGREE>
 <DEGREE id="19">
 <par name="numerator" value="13" />
 <par name="denominator" value="8" />
 </DEGREE>
 <DEGREE id="20">
-<par name="numerator" value="693" />
-<par name="denominator" value="416" />
+<par name="numerator" value="5" />
+<par name="denominator" value="3" />
 </DEGREE>
 <DEGREE id="21">
-<par name="numerator" value="22" />
-<par name="denominator" value="13" />
+<par name="numerator" value="27" />
+<par name="denominator" value="16" />
 </DEGREE>
 <DEGREE id="22">
 <par name="numerator" value="7" />
 <par name="denominator" value="4" />
 </DEGREE>
 <DEGREE id="23">
-<par name="numerator" value="1485" />
-<par name="denominator" value="832" />
+<par name="numerator" value="16" />
+<par name="denominator" value="9" />
 </DEGREE>
 <DEGREE id="24">
 <par name="numerator" value="11" />
@@ -137,8 +137,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="denominator" value="8" />
 </DEGREE>
 <DEGREE id="26">
-<par name="numerator" value="99" />
-<par name="denominator" value="52" />
+<par name="numerator" value="243" />
+<par name="denominator" value="128" />
 </DEGREE>
 <DEGREE id="27">
 <par name="numerator" value="63" />
