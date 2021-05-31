@@ -203,7 +203,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="5.83333" exact_value="0x40BAAAAB" />
+<par_real name="volume" value="5" exact_value="0x40A00000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -1615,7 +1615,7 @@ exact_value="0x4220A142" />
 <par name="pitchwheel_bendrange" value="88" />
 <par name="pitchwheel_bendrange_down" value="0" />
 <par_bool name="pitchwheel_split" value="no" />
-<par_bool name="expression_receive" value="yes" />
+<par_bool name="expression_receive" value="no" />
 <par name="panning_depth" value="64" />
 <par name="filter_cutoff_depth" value="64" />
 <par name="filter_q_depth" value="64" />
@@ -1623,7 +1623,7 @@ exact_value="0x4220A142" />
 <par name="mod_wheel_depth" value="80" />
 <par_bool name="mod_wheel_exponential" value="no" />
 <par_bool name="fm_amp_receive" value="yes" />
-<par_bool name="volume_receive" value="yes" />
+<par_bool name="volume_receive" value="no" />
 <par_bool name="sustain_receive" value="yes" />
 <par_bool name="portamento_receive" value="yes" />
 <par name="portamento_time" value="64" />
@@ -2932,7 +2932,7 @@ exact_value="0x4220A142" />
 <par_bool name="repeating_envelope" value="no" />
 <par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
 <par_real name="D_dt" value="0.00688691" exact_value="0x3BE1AB99" />
-<par_real name="R_dt" value="1.6443" exact_value="0x3FD2787B" />
+<par_real name="R_dt" value="0.136621" exact_value="0x3E0BE644" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="79" />
