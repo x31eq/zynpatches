@@ -75,10 +75,10 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="1.40108" exact_value="0x3FB3566D" />
 </DEGREE>
 <DEGREE id="14">
-<par_real name="cents" value="1.44565" exact_value="0x3FB90AFB" />
+<par_real name="cents" value="1.44565" exact_value="0x3FB90AFC" />
 </DEGREE>
 <DEGREE id="15">
-<par_real name="cents" value="1.47289" exact_value="0x3FBC878F" />
+<par_real name="cents" value="1.47289" exact_value="0x3FBC8790" />
 </DEGREE>
 <DEGREE id="16">
 <par_real name="cents" value="1.50064" exact_value="0x3FC014F5" />
@@ -93,7 +93,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_real name="cents" value="1.62774" exact_value="0x3FD059CE" />
 </DEGREE>
 <DEGREE id="20">
-<par_real name="cents" value="1.65841" exact_value="0x3FD446D1" />
+<par_real name="cents" value="1.65841" exact_value="0x3FD446D2" />
 </DEGREE>
 <DEGREE id="21">
 <par_real name="cents" value="1.68966" exact_value="0x3FD846C3" />
@@ -1459,7 +1459,7 @@ exact_value="0x4220A142" />
 <par_bool name="repeating_envelope" value="no" />
 <par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
 <par_real name="D_dt" value="0.00688691" exact_value="0x3BE1AB99" />
-<par_real name="R_dt" value="1.6443" exact_value="0x3FD2787B" />
+<par_real name="R_dt" value="0.136621" exact_value="0x3E0BE644" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="79" />
