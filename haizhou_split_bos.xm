@@ -146,7 +146,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="2.08333" exact_value="0x40055556" />
+<par_real name="volume" value="-6.25" exact_value="0xC0C80001" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -1451,11 +1451,11 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="1">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="0" exact_value="0x00000000" />
+<par_real name="volume" value="-5.83333" exact_value="0xC0BAAAAB" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
-<par name="key_shift" value="42" />
+<par name="key_shift" value="64" />
 <par name="rcv_chn" value="1" />
 <par name="velocity_sensing" value="64" />
 <par name="velocity_offset" value="64" />
@@ -2931,13 +2931,31 @@ exact_value="0x4220A142" />
 <SYSTEM_EFFECTS>
 <SYSTEM_EFFECT id="0">
 <EFFECT>
-<par name="type" value="0" />
+<par name="type" value="1" />
+<par name="preset" value="7" />
+<EFFECT_PARAMETERS>
+<par_no id="0">
+<par name="par" value="96" />
+</par_no>
+<par_no id="1">
+<par name="par" value="0" />
+</par_no>
+<par_no id="2">
+<par name="par" value="19" />
+</par_no>
+<par_no id="10">
+<par name="par" value="1" />
+</par_no>
+<par_no id="11">
+<par name="par" value="38" />
+</par_no>
+</EFFECT_PARAMETERS>
 </EFFECT>
 <VOLUME id="0">
-<par name="vol" value="0" />
+<par name="vol" value="87" />
 </VOLUME>
 <VOLUME id="1">
-<par name="vol" value="0" />
+<par name="vol" value="87" />
 </VOLUME>
 <VOLUME id="2">
 <par name="vol" value="0" />
@@ -2993,13 +3011,31 @@ exact_value="0x4220A142" />
 </SYSTEM_EFFECT>
 <SYSTEM_EFFECT id="1">
 <EFFECT>
-<par name="type" value="0" />
+<par name="type" value="1" />
+<par name="preset" value="7" />
+<EFFECT_PARAMETERS>
+<par_no id="0">
+<par name="par" value="96" />
+</par_no>
+<par_no id="1">
+<par name="par" value="127" />
+</par_no>
+<par_no id="2">
+<par name="par" value="20" />
+</par_no>
+<par_no id="10">
+<par name="par" value="1" />
+</par_no>
+<par_no id="11">
+<par name="par" value="38" />
+</par_no>
+</EFFECT_PARAMETERS>
 </EFFECT>
 <VOLUME id="0">
-<par name="vol" value="0" />
+<par name="vol" value="87" />
 </VOLUME>
 <VOLUME id="1">
-<par name="vol" value="0" />
+<par name="vol" value="87" />
 </VOLUME>
 <VOLUME id="2">
 <par name="vol" value="0" />
