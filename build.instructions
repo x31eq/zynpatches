@@ -1,0 +1,28 @@
+Here are random instructions for how I make the zynaddsubfx binary.
+The standard instructions are incomplete and wrong.
+
+From the root:
+
+* cmake -D JackEnable=ON -D JACK_INCLUDE_DIR=/usr/include/jack build
+* cd build
+* make
+
+Options get remembered the next time you run cmake.
+Maybe there are some other ones that I forgot.
+Maybe "build" has to be created before you use it.
+
+Some libraries can't be found so I alias them
+
+please ln -s /usr/lib/i386-linux-gnu/libSM.so.6 /usr/lib/libSM.so
+please ln -s /usr/lib/i386-linux-gnu/libICE.so.6 /usr/lib/libICE.so
+please ln -s /usr/lib/i386-linux-gnu/libX11.so /usr/lib/libX11.so
+please ln -s /usr/lib/i386-linux-gnu/libXext.so /usr/lib/
+
+
+There may be more that were already there.
+There's surely a way to configure cmake with this path
+
+needs JACK_INCLUDE_DIR
+
+/usr/include/jack
+
