@@ -2,7 +2,7 @@
 <?xml version="1.0f" encoding="UTF-8"?>
 <!DOCTYPE ZynAddSubFX-data>
 <ZynAddSubFX-data version-major="3" version-minor="0"
-version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
+version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <INFORMATION />
 <BASE_PARAMETERS>
 <par name="max_midi_parts" value="16" />
@@ -13,7 +13,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="max_addsynth_voices" value="8" />
 </BASE_PARAMETERS>
 <MASTER>
-<par name="volume" value="75" />
+<par_real name="volume" value="-8.75" exact_value="0xC10C0000" />
 <par name="key_shift" value="64" />
 <par_bool name="nrpn_receive" value="yes" />
 <MICROTONAL>
@@ -119,7 +119,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="85" />
+<par_real name="volume" value="-2.91667" exact_value="0xC03AAAAB" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -152,7 +152,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="80" />
+<par_real name="volume" value="2.0412" exact_value="0x4002A30C" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="116" />
 <par name="fadein_adjustment" value="20" />
@@ -168,22 +168,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="25" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0" exact_value="0x00000000" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="127" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -200,22 +202,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -239,22 +243,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -1152,7 +1158,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="118" />
+<par_real name="volume" value="-4.25197" exact_value="0xC0881024" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="120" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -1163,9 +1169,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="2" />
-<par name="D_dt" value="85" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
+<par_real name="D_dt" value="2.6065" exact_value="0x4026D0F2" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="110" />
@@ -1184,20 +1191,21 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.538701" exact_value="0x3F09E84F" />
+<par_real name="freq" value="3.40381" exact_value="0x4059D81A" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="54" />
+<par_real name="volume" value="42.5197" exact_value="0x422A1428" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="98" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -1315,7 +1323,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="115" />
+<par_real name="volume" value="-5.66929" exact_value="0xC0B56AD8" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -1332,13 +1340,14 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.638701" exact_value="0x3F2381E9" />
+<par_real name="freq" value="6.89096" exact_value="0x40DC82C4" />
 <par name="intensity" value="13" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="4" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -1437,7 +1446,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </INSTRUMENT_EFFECTS>
 </INSTRUMENT>
 <CONTROLLER>
-<par name="pitchwheel_bendrange" value="200" />
+<par name="pitchwheel_bendrange" value="30" />
 <par name="pitchwheel_bendrange_down" value="0" />
 <par_bool name="pitchwheel_split" value="no" />
 <par_bool name="expression_receive" value="yes" />
@@ -1465,7 +1474,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="1">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="95" />
+<par_real name="volume" value="-0.416667" exact_value="0xBED55556" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -1498,7 +1507,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="97" />
+<par_real name="volume" value="12.6662" exact_value="0x414AA8C6" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="112" />
 <par name="fadein_adjustment" value="20" />
@@ -1514,22 +1523,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="32" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="13" />
-<par name="D_dt" value="79" />
-<par name="R_dt" value="57" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.0134298" exact_value="0x3C5C08CA" />
+<par_real name="D_dt" value="1.75628" exact_value="0x3FE0CDA4" />
+<par_real name="R_dt" value="0.408115" exact_value="0x3ED0F466" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="31" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -1546,22 +1557,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.583937" exact_value="0x3F157CE5" />
+<par_real name="freq" value="4.68805" exact_value="0x40960480" />
 <par name="intensity" value="8" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -1585,22 +1598,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="66" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="7" />
-<par name="D_dt" value="86" />
-<par name="R_dt" value="83" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00581636" exact_value="0x3BBE9724" />
+<par_real name="D_dt" value="2.7836" exact_value="0x40322695" />
+<par_real name="R_dt" value="2.28527" exact_value="0x401241DB" />
 <par name="A_val" value="43" />
 <par name="D_val" value="99" />
 <par name="S_val" value="64" />
 <par name="R_val" value="47" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.505079" exact_value="0x3F014CDB" />
+<par_real name="freq" value="2.67888" exact_value="0x402B72DA" />
 <par name="intensity" value="4" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="1" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="4" />
+<par_real name="delay" value="0.125984" exact_value="0x3E010204" />
 <par name="stretch" value="43" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -2482,7 +2497,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="112" />
-<par name="volume" value="100" />
+<par_real name="volume" value="-12.7559" exact_value="0xC14C1832" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -2499,20 +2514,21 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.574803" exact_value="0x3F13264A" />
+<par_real name="freq" value="4.39533" exact_value="0x408CA685" />
 <par name="intensity" value="8" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="4" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="61" />
+<par_real name="volume" value="48.0315" exact_value="0x42402040" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="69" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -2646,7 +2662,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="14" />
-<par name="volume" value="100" />
+<par_real name="volume" value="-12.7559" exact_value="0xC14C1832" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -2721,7 +2737,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="100" />
+<par_real name="volume" value="-12.7559" exact_value="0xC14C1832" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="67" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -2857,7 +2873,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="2">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="96" />
+<par_real name="volume" value="0" exact_value="0x00000000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -2890,7 +2906,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="90" />
+<par_real name="volume" value="8.2912" exact_value="0x4104A8C1" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="127" />
 <par name="fadein_adjustment" value="20" />
@@ -2906,22 +2922,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="7" />
-<par name="D_dt" value="35" />
-<par name="R_dt" value="17" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00581636" exact_value="0x3BBE9724" />
+<par_real name="D_dt" value="0.0889765" exact_value="0x3DB63955" />
+<par_real name="R_dt" value="0.020447" exact_value="0x3CA7806D" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="123" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -2938,22 +2956,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -2977,22 +2997,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -3854,7 +3876,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="17" />
-<par name="volume" value="100" />
+<par_real name="volume" value="-12.7559" exact_value="0xC14C1832" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="72" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -3953,7 +3975,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="19" />
-<par name="volume" value="103" />
+<par_real name="volume" value="-11.3386" exact_value="0xC1356AD8" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -4052,7 +4074,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="109" />
-<par name="volume" value="100" />
+<par_real name="volume" value="-12.7559" exact_value="0xC14C1832" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="72" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -4151,7 +4173,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="110" />
-<par name="volume" value="103" />
+<par_real name="volume" value="-11.3386" exact_value="0xC1356AD8" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -4284,7 +4306,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="3">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="96" />
+<par_real name="volume" value="0" exact_value="0x00000000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -4317,7 +4339,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="90" />
+<par_real name="volume" value="8.2912" exact_value="0x4104A8C1" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="64" />
 <par name="fadein_adjustment" value="20" />
@@ -4333,22 +4355,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="11" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="25" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.0105533" exact_value="0x3C2CE7C0" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="127" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -4365,22 +4389,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -4404,22 +4430,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -5277,7 +5305,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="100" />
+<par_real name="volume" value="-12.7559" exact_value="0xC14C1832" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="85" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -5288,9 +5316,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="6" />
-<par name="D_dt" value="58" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00481367" exact_value="0x3B9DBBFD" />
+<par_real name="D_dt" value="0.436415" exact_value="0x3EDF71D5" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="50" />
@@ -5309,13 +5338,14 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.683701" exact_value="0x3F2F0707" />
+<par_real name="freq" value="9.44383" exact_value="0x411719F2" />
 <par name="intensity" value="20" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -5440,9 +5470,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </HARMONICS>
 <AMPLITUDE_PARAMETERS>
 <par_bool name="stereo" value="yes" />
-<par name="volume" value="113" />
+<par_real name="volume" value="10.625" exact_value="0x412A0002" />
 <par name="panning" value="64" />
-<par name="velocity_sensing" value="90" />
+<par_real name="velocity_sensing" value="70.8661"
+exact_value="0x428DBB77" />
 <AMPLITUDE_ENVELOPE>
 <par_bool name="free_mode" value="no" />
 <par name="env_points" value="4" />
@@ -5450,9 +5481,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="4" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="50" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00299497" exact_value="0x3B44472E" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.254356" exact_value="0x3E823AEF" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="127" />
@@ -5496,9 +5528,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="51" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="94" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.272249" exact_value="0x3E8B6440" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="4.70753" exact_value="0x4096A420" />
 <par name="A_val" value="55" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
@@ -5607,7 +5640,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="4">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="96" />
+<par_real name="volume" value="0" exact_value="0x00000000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -5640,7 +5673,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="90" />
+<par_real name="volume" value="8.2912" exact_value="0x4104A8C1" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="64" />
 <par name="fadein_adjustment" value="20" />
@@ -5656,22 +5689,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="25" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0" exact_value="0x00000000" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="127" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -5688,22 +5723,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -5727,22 +5764,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -6640,7 +6679,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="118" />
+<par_real name="volume" value="-4.25197" exact_value="0xC0881024" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="120" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -6651,9 +6690,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="2" />
-<par name="D_dt" value="85" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
+<par_real name="D_dt" value="2.6065" exact_value="0x4026D0F2" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="110" />
@@ -6672,13 +6712,14 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.538701" exact_value="0x3F09E84F" />
+<par_real name="freq" value="3.40381" exact_value="0x4059D81A" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -6753,7 +6794,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="115" />
+<par_real name="volume" value="-5.66929" exact_value="0xC0B56AD8" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -6770,13 +6811,14 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.638701" exact_value="0x3F2381E9" />
+<par_real name="freq" value="6.89096" exact_value="0x40DC82C4" />
 <par name="intensity" value="13" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="4" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -6903,7 +6945,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="5">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="96" />
+<par_real name="volume" value="0" exact_value="0x00000000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -6936,7 +6978,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="80" />
+<par_real name="volume" value="2.0412" exact_value="0x4002A30C" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="116" />
 <par name="fadein_adjustment" value="20" />
@@ -6952,22 +6994,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="25" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0" exact_value="0x00000000" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="127" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -6984,22 +7028,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -7023,22 +7069,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -7936,7 +7984,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="118" />
+<par_real name="volume" value="-4.25197" exact_value="0xC0881024" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="120" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -7947,9 +7995,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="2" />
-<par name="D_dt" value="85" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
+<par_real name="D_dt" value="2.6065" exact_value="0x4026D0F2" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="110" />
@@ -7968,20 +8017,21 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.538701" exact_value="0x3F09E84F" />
+<par_real name="freq" value="3.40381" exact_value="0x4059D81A" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="54" />
+<par_real name="volume" value="42.5197" exact_value="0x422A1428" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="98" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -8099,7 +8149,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="115" />
+<par_real name="volume" value="-5.66929" exact_value="0xC0B56AD8" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -8116,13 +8166,14 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.638701" exact_value="0x3F2381E9" />
+<par_real name="freq" value="6.89096" exact_value="0x40DC82C4" />
 <par name="intensity" value="13" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="4" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -8249,7 +8300,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="6">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="96" />
+<par_real name="volume" value="0" exact_value="0x00000000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -8282,7 +8333,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="61" />
+<par_real name="volume" value="-9.8338" exact_value="0xC11D573D" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="118" />
 <par name="fadein_adjustment" value="20" />
@@ -8298,22 +8349,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="25" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0" exact_value="0x00000000" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="127" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -8330,22 +8383,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -8369,22 +8424,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.774921" exact_value="0x3F466139" />
+<par_real name="freq" value="17.846" exact_value="0x418EC48B" />
 <par name="intensity" value="1" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -9282,7 +9339,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="118" />
+<par_real name="volume" value="-4.25197" exact_value="0xC0881024" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="120" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -9293,9 +9350,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="2" />
-<par name="D_dt" value="85" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
+<par_real name="D_dt" value="2.6065" exact_value="0x4026D0F2" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="110" />
@@ -9314,20 +9372,21 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.538701" exact_value="0x3F09E84F" />
+<par_real name="freq" value="3.40381" exact_value="0x4059D81A" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="55" />
+<par_real name="volume" value="43.3071" exact_value="0x422D3A75" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="76" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -9445,7 +9504,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="115" />
+<par_real name="volume" value="-5.66929" exact_value="0xC0B56AD8" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -9462,13 +9521,14 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.638701" exact_value="0x3F2381E9" />
+<par_real name="freq" value="6.89096" exact_value="0x40DC82C4" />
 <par name="intensity" value="13" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="4" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -9595,7 +9655,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="7">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="102" />
+<par_real name="volume" value="2.5" exact_value="0x40200000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -9628,7 +9688,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="44" />
+<par_real name="volume" value="-20.4588" exact_value="0xC1A3AB9E" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="118" />
 <par name="fadein_adjustment" value="20" />
@@ -9644,22 +9704,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="25" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0" exact_value="0x00000000" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="127" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -9676,22 +9738,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -9715,22 +9779,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.774921" exact_value="0x3F466139" />
+<par_real name="freq" value="17.846" exact_value="0x418EC48B" />
 <par name="intensity" value="1" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -10628,7 +10694,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="118" />
+<par_real name="volume" value="-4.25197" exact_value="0xC0881024" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="120" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -10639,9 +10705,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="2" />
-<par name="D_dt" value="85" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
+<par_real name="D_dt" value="2.6065" exact_value="0x4026D0F2" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="110" />
@@ -10660,20 +10727,21 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.538701" exact_value="0x3F09E84F" />
+<par_real name="freq" value="3.40381" exact_value="0x4059D81A" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="55" />
+<par_real name="volume" value="43.3071" exact_value="0x422D3A75" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="76" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -10791,7 +10859,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="115" />
+<par_real name="volume" value="-5.66929" exact_value="0xC0B56AD8" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -10808,13 +10876,14 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.638701" exact_value="0x3F2381E9" />
+<par_real name="freq" value="6.89096" exact_value="0x40DC82C4" />
 <par name="intensity" value="13" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="4" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -10897,12 +10966,6 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_no id="0">
 <par name="par" value="46" />
 </par_no>
-<par_no id="1">
-<par name="par" value="64" />
-</par_no>
-<par_no id="2">
-<par name="par" value="35" />
-</par_no>
 <par_no id="3">
 <par name="par" value="76" />
 </par_no>
@@ -10965,7 +11028,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="8">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="96" />
+<par_real name="volume" value="0" exact_value="0x00000000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -10998,7 +11061,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="61" />
+<par_real name="volume" value="-9.8338" exact_value="0xC11D573D" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="118" />
 <par name="fadein_adjustment" value="20" />
@@ -11014,22 +11077,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="25" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0" exact_value="0x00000000" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="127" />
 <par name="R_val" value="66" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214281" />
+<par_real name="freq" value="6.47918" exact_value="0x40CF556A" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -11046,22 +11111,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.551181" exact_value="0x3F0D1A33" />
+<par_real name="freq" value="3.7189" exact_value="0x406E027E" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -11085,22 +11152,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.774921" exact_value="0x3F466139" />
+<par_real name="freq" value="17.846" exact_value="0x418EC48B" />
 <par name="intensity" value="1" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -11998,7 +12067,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="118" />
+<par_real name="volume" value="-4.25197" exact_value="0xC0881024" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="120" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -12009,9 +12078,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="2" />
-<par name="D_dt" value="85" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
+<par_real name="D_dt" value="2.6065" exact_value="0x4026D0F2" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="110" />
@@ -12030,20 +12100,21 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.538701" exact_value="0x3F09E84F" />
+<par_real name="freq" value="3.40381" exact_value="0x4059D81A" />
 <par name="intensity" value="19" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="3" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="55" />
+<par_real name="volume" value="43.3071" exact_value="0x422D3A75" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="76" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -12161,7 +12232,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="115" />
+<par_real name="volume" value="-5.66929" exact_value="0xC0B56AD8" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -12178,13 +12249,14 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="freq_envelope_enabled" value="no" />
 <par_bool name="freq_lfo_enabled" value="yes" />
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.638701" exact_value="0x3F2381E9" />
+<par_real name="freq" value="6.89096" exact_value="0x40DC82C4" />
 <par name="intensity" value="13" />
 <par name="start_phase" value="0" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="4" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -12311,7 +12383,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </PART>
 <PART id="9">
 <par_bool name="enabled" value="yes" />
-<par name="volume" value="96" />
+<par_real name="volume" value="0" exact_value="0x00000000" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -12344,7 +12416,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <ADD_SYNTH_PARAMETERS>
 <par_bool name="stereo" value="yes" />
 <AMPLITUDE_PARAMETERS>
-<par name="volume" value="103" />
+<par_real name="volume" value="16.4162" exact_value="0x41835463" />
 <par name="panning" value="64" />
 <par name="velocity_sensing" value="105" />
 <par name="fadein_adjustment" value="20" />
@@ -12360,22 +12432,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="40" />
-<par name="R_dt" value="25" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0" exact_value="0x00000000" />
+<par_real name="D_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="R_dt" value="0.0414156" exact_value="0x3D29A35B" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="127" />
 <par name="R_val" value="64" />
 </AMPLITUDE_ENVELOPE>
 <AMPLITUDE_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214285" />
+<par_real name="freq" value="6.47919" exact_value="0x40CF5580" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -12392,22 +12466,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="no" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="50" />
-<par name="D_dt" value="10" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.254356" exact_value="0x3E823AEF" />
+<par_real name="D_dt" value="0.00925031" exact_value="0x3C178EA0" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FREQUENCY_ENVELOPE>
 <FREQUENCY_LFO>
-<par_real name="freq" value="0.606181" exact_value="0x3F1B2EAF" />
+<par_real name="freq" value="5.48347" exact_value="0x40AF7892" />
 <par name="intensity" value="9" />
 <par name="start_phase" value="29" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="1" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="2" />
+<par_real name="delay" value="0.0629921" exact_value="0x3D810204" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -12431,22 +12507,24 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="0" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="40" />
-<par name="D_dt" value="70" />
-<par name="R_dt" value="60" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.127326" exact_value="0x3E02619E" />
+<par_real name="D_dt" value="0.969636" exact_value="0x3F783A0B" />
+<par_real name="R_dt" value="0.498893" exact_value="0x3EFF6EF3" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="64" />
 <par name="R_val" value="64" />
 </FILTER_ENVELOPE>
 <FILTER_LFO>
-<par_real name="freq" value="0.629921" exact_value="0x3F214285" />
+<par_real name="freq" value="6.47919" exact_value="0x40CF5580" />
 <par name="intensity" value="0" />
 <par name="start_phase" value="64" />
+<par name="cutoff" value="127" />
 <par name="lfo_type" value="0" />
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
-<par name="delay" value="0" />
+<par_real name="delay" value="0" exact_value="0x00000000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -13304,7 +13382,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="100" />
+<par_real name="volume" value="-12.7559" exact_value="0xC14C1832" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="127" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -13315,9 +13393,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="6" />
-<par name="D_dt" value="100" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00481367" exact_value="0x3B9DBBFD" />
+<par_real name="D_dt" value="6.9784" exact_value="0x40DF4F15" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="127" />
@@ -13498,7 +13577,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="28" />
+<par_real name="volume" value="-46.7717" exact_value="0xC23B162C" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="116" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -13509,9 +13588,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="64" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="2" />
-<par name="D_dt" value="100" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
+<par_real name="D_dt" value="6.9784" exact_value="0x40DF4F15" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="127" />
@@ -13740,7 +13820,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="85" />
+<par_real name="volume" value="-19.8425" exact_value="0xC19EBD7C" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="43" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -13751,9 +13831,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="21" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="1" />
-<par name="D_dt" value="35" />
-<par name="R_dt" value="50" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0.000676866" exact_value="0x3A316FAE" />
+<par_real name="D_dt" value="0.0889765" exact_value="0x3DB63955" />
+<par_real name="R_dt" value="0.254356" exact_value="0x3E823AEF" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="16" />
@@ -13774,7 +13855,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </FREQUENCY_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par name="volume" value="40" />
+<par_real name="volume" value="31.4961" exact_value="0x41FBF7F0" />
 <par name="volume_damp" value="95" />
 <par name="velocity_sensing" value="34" />
 <par_bool name="amp_envelope_enabled" value="no" />
@@ -13880,7 +13961,7 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 </OSCIL>
 <AMPLITUDE_PARAMETERS>
 <par name="panning" value="64" />
-<par name="volume" value="54" />
+<par_real name="volume" value="-34.4882" exact_value="0xC209F3E7" />
 <par_bool name="volume_minus" value="no" />
 <par name="velocity_sensing" value="83" />
 <par_bool name="amp_envelope_enabled" value="yes" />
@@ -13891,9 +13972,10 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="env_stretch" value="31" />
 <par_bool name="forced_release" value="yes" />
 <par_bool name="linear_envelope" value="no" />
-<par name="A_dt" value="0" />
-<par name="D_dt" value="24" />
-<par name="R_dt" value="100" />
+<par_bool name="repeating_envelope" value="no" />
+<par_real name="A_dt" value="0" exact_value="0x00000000" />
+<par_real name="D_dt" value="0.038156" exact_value="0x3D1C497E" />
+<par_real name="R_dt" value="6.9784" exact_value="0x40DF4F15" />
 <par name="A_val" value="64" />
 <par name="D_val" value="64" />
 <par name="S_val" value="67" />
@@ -14053,9 +14135,6 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_no id="0">
 <par name="par" value="50" />
 </par_no>
-<par_no id="1">
-<par name="par" value="64" />
-</par_no>
 <par_no id="2">
 <par name="par" value="30" />
 </par_no>
@@ -14071,11 +14150,8 @@ version-revision="3" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_no id="9">
 <par name="par" value="78" />
 </par_no>
-<par_no id="10">
-<par name="par" value="1" />
-</par_no>
-<par_no id="11">
-<par name="par" value="64" />
+<par_no id="12">
+<par name="par" value="0" />
 </par_no>
 </EFFECT_PARAMETERS>
 </EFFECT>
