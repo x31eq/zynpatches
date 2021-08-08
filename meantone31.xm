@@ -184,7 +184,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par_bool name="note_on" value="yes" />
 <par_bool name="poly_mode" value="yes" />
 <par name="legato_mode" value="0" />
-<par name="key_limit" value="15" />
+<par name="key_limit" value="45" />
 <INSTRUMENT>
 <INFO>
 <string name="name">Velveteen</string>
