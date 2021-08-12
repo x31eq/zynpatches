@@ -1585,7 +1585,7 @@ exact_value="0x4220A142" />
 <par name="pitchwheel_bendrange" value="78" />
 <par name="pitchwheel_bendrange_down" value="0" />
 <par_bool name="pitchwheel_split" value="no" />
-<par_bool name="expression_receive" value="yes" />
+<par_bool name="expression_receive" value="no" />
 <par name="panning_depth" value="64" />
 <par name="filter_cutoff_depth" value="64" />
 <par name="filter_q_depth" value="64" />
@@ -1593,7 +1593,7 @@ exact_value="0x4220A142" />
 <par name="mod_wheel_depth" value="80" />
 <par_bool name="mod_wheel_exponential" value="no" />
 <par_bool name="fm_amp_receive" value="yes" />
-<par_bool name="volume_receive" value="yes" />
+<par_bool name="volume_receive" value="no" />
 <par_bool name="sustain_receive" value="yes" />
 <par_bool name="portamento_receive" value="yes" />
 <par name="portamento_time" value="64" />
