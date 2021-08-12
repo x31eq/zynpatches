@@ -1391,25 +1391,22 @@ exact_value="0x4220A142" />
 <par name="preset" value="0" />
 <EFFECT_PARAMETERS>
 <par_no id="2">
-<par name="par" value="20" />
+<par name="par" value="13" />
 </par_no>
 <par_no id="3">
-<par name="par" value="45" />
+<par name="par" value="60" />
 </par_no>
 <par_no id="4">
-<par name="par" value="67" />
+<par name="par" value="62" />
 </par_no>
 <par_no id="7">
-<par name="par" value="88" />
+<par name="par" value="93" />
 </par_no>
 <par_no id="8">
-<par name="par" value="3" />
-</par_no>
-<par_no id="10">
-<par name="par" value="127" />
+<par name="par" value="24" />
 </par_no>
 <par_no id="11">
-<par name="par" value="103" />
+<par name="par" value="78" />
 </par_no>
 </EFFECT_PARAMETERS>
 </EFFECT>
@@ -1471,10 +1468,13 @@ exact_value="0x4220A142" />
 <par name="par" value="13" />
 </par_no>
 <par_no id="3">
-<par name="par" value="62" />
+<par name="par" value="39" />
 </par_no>
 <par_no id="4">
 <par name="par" value="62" />
+</par_no>
+<par_no id="5">
+<par name="par" value="1" />
 </par_no>
 <par_no id="7">
 <par name="par" value="93" />
@@ -1483,7 +1483,7 @@ exact_value="0x4220A142" />
 <par name="par" value="24" />
 </par_no>
 <par_no id="11">
-<par name="par" value="78" />
+<par name="par" value="64" />
 </par_no>
 </EFFECT_PARAMETERS>
 </EFFECT>
