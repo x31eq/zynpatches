@@ -1388,16 +1388,16 @@ exact_value="0x4220A142" />
 <INSTRUMENT_EFFECT id="0">
 <EFFECT>
 <par name="type" value="6" />
-<par name="preset" value="1" />
+<par name="preset" value="0" />
 <EFFECT_PARAMETERS>
 <par_no id="2">
 <par name="par" value="20" />
 </par_no>
 <par_no id="3">
-<par name="par" value="34" />
+<par name="par" value="45" />
 </par_no>
 <par_no id="4">
-<par name="par" value="49" />
+<par name="par" value="67" />
 </par_no>
 <par_no id="7">
 <par name="par" value="88" />
@@ -1409,7 +1409,7 @@ exact_value="0x4220A142" />
 <par name="par" value="127" />
 </par_no>
 <par_no id="11">
-<par name="par" value="48" />
+<par name="par" value="103" />
 </par_no>
 </EFFECT_PARAMETERS>
 </EFFECT>
@@ -1422,7 +1422,7 @@ exact_value="0x4220A142" />
 <par name="preset" value="0" />
 <EFFECT_PARAMETERS>
 <par_no id="0">
-<par name="par" value="79" />
+<par name="par" value="56" />
 </par_no>
 <par_no id="10">
 <par name="par" value="2" />
@@ -1471,10 +1471,10 @@ exact_value="0x4220A142" />
 <par name="par" value="13" />
 </par_no>
 <par_no id="3">
-<par name="par" value="86" />
+<par name="par" value="62" />
 </par_no>
 <par_no id="4">
-<par name="par" value="44" />
+<par name="par" value="62" />
 </par_no>
 <par_no id="7">
 <par name="par" value="93" />
