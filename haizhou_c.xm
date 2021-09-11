@@ -220,6 +220,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -254,6 +256,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -295,6 +299,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -1233,6 +1239,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -1382,6 +1390,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -1636,28 +1646,22 @@ exact_value="0x4220A142" />
 <SYSTEM_EFFECTS>
 <SYSTEM_EFFECT id="0">
 <EFFECT>
-<par name="type" value="1" />
-<par name="preset" value="7" />
+<par name="type" value="6" />
+<par name="preset" value="3" />
 <EFFECT_PARAMETERS>
-<par_no id="1">
-<par name="par" value="0" />
+<par_no id="0">
+<par name="par" value="91" />
 </par_no>
-<par_no id="2">
-<par name="par" value="18" />
+<par_no id="3">
+<par name="par" value="34" />
 </par_no>
-<par_no id="7">
-<par name="par" value="109" />
-</par_no>
-<par_no id="10">
-<par name="par" value="1" />
-</par_no>
-<par_no id="11">
-<par name="par" value="40" />
+<par_no id="4">
+<par name="par" value="48" />
 </par_no>
 </EFFECT_PARAMETERS>
 </EFFECT>
 <VOLUME id="0">
-<par name="vol" value="88" />
+<par name="vol" value="127" />
 </VOLUME>
 <VOLUME id="1">
 <par name="vol" value="0" />
@@ -1705,10 +1709,10 @@ exact_value="0x4220A142" />
 <par name="vol" value="0" />
 </VOLUME>
 <SENDTO id="1">
-<par name="send_vol" value="0" />
+<par name="send_vol" value="92" />
 </SENDTO>
 <SENDTO id="2">
-<par name="send_vol" value="0" />
+<par name="send_vol" value="92" />
 </SENDTO>
 <SENDTO id="3">
 <par name="send_vol" value="0" />
@@ -1717,27 +1721,24 @@ exact_value="0x4220A142" />
 <SYSTEM_EFFECT id="1">
 <EFFECT>
 <par name="type" value="1" />
-<par name="preset" value="7" />
+<par name="preset" value="0" />
 <EFFECT_PARAMETERS>
 <par_no id="1">
-<par name="par" value="127" />
+<par name="par" value="0" />
 </par_no>
 <par_no id="2">
-<par name="par" value="17" />
+<par name="par" value="18" />
 </par_no>
 <par_no id="7">
-<par name="par" value="111" />
-</par_no>
-<par_no id="10">
-<par name="par" value="1" />
+<par name="par" value="109" />
 </par_no>
 <par_no id="11">
-<par name="par" value="42" />
+<par name="par" value="40" />
 </par_no>
 </EFFECT_PARAMETERS>
 </EFFECT>
 <VOLUME id="0">
-<par name="vol" value="92" />
+<par name="vol" value="0" />
 </VOLUME>
 <VOLUME id="1">
 <par name="vol" value="0" />
@@ -1793,7 +1794,22 @@ exact_value="0x4220A142" />
 </SYSTEM_EFFECT>
 <SYSTEM_EFFECT id="2">
 <EFFECT>
-<par name="type" value="0" />
+<par name="type" value="1" />
+<par name="preset" value="0" />
+<EFFECT_PARAMETERS>
+<par_no id="1">
+<par name="par" value="127" />
+</par_no>
+<par_no id="2">
+<par name="par" value="17" />
+</par_no>
+<par_no id="7">
+<par name="par" value="111" />
+</par_no>
+<par_no id="11">
+<par name="par" value="42" />
+</par_no>
+</EFFECT_PARAMETERS>
 </EFFECT>
 <VOLUME id="0">
 <par name="vol" value="0" />
