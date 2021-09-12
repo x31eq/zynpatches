@@ -1647,16 +1647,16 @@ exact_value="0x4220A142" />
 <SYSTEM_EFFECT id="0">
 <EFFECT>
 <par name="type" value="6" />
-<par name="preset" value="3" />
+<par name="preset" value="0" />
 <EFFECT_PARAMETERS>
 <par_no id="0">
 <par name="par" value="91" />
 </par_no>
 <par_no id="3">
-<par name="par" value="34" />
+<par name="par" value="27" />
 </par_no>
 <par_no id="4">
-<par name="par" value="48" />
+<par name="par" value="28" />
 </par_no>
 </EFFECT_PARAMETERS>
 </EFFECT>
