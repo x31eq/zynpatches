@@ -150,10 +150,17 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <mapping gain="100" offset="0" />
 </automation>
 </slot>
+<slot id="1">
+<params midi-cc="-1" name="Slot 2" />
+<automation id="0">
+<params path="/part0/Pvolume" />
+<mapping gain="100" offset="0" />
+</automation>
+</slot>
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="-9.58333" exact_value="0xC1195556" />
+<par_real name="volume" value="-13.3333" exact_value="0xC1555556" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
@@ -1455,7 +1462,7 @@ exact_value="0x4220A142" />
 <par_bool name="repeating_envelope" value="no" />
 <par_real name="A_dt" value="0.00139955" exact_value="0x3AB770F5" />
 <par_real name="D_dt" value="0.00688691" exact_value="0x3BE1AB99" />
-<par_real name="R_dt" value="0.136621" exact_value="0x3E0BE644" />
+<par_real name="R_dt" value="1.6443" exact_value="0x3FD2787B" />
 <par name="A_val" value="66" />
 <par name="D_val" value="66" />
 <par name="S_val" value="79" />
