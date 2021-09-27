@@ -160,7 +160,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </automation>
 <PART id="0">
 <par_bool name="enabled" value="yes" />
-<par_real name="volume" value="-13.3333" exact_value="0xC1555556" />
+<par_real name="volume" value="-5.83333" exact_value="0xC0BAAAAB" />
 <par name="panning" value="64" />
 <par name="min_key" value="0" />
 <par name="max_key" value="127" />
