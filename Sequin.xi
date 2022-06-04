@@ -1288,9 +1288,10 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </HARMONICS>
 <AMPLITUDE_PARAMETERS>
 <par_bool name="stereo" value="yes" />
-<par_real name="volume" value="-10.625" exact_value="0xC129FFFF" />
+<par_real name="volume" value="-12.5" exact_value="0xC147FFFF" />
 <par name="panning" value="64" />
-<par_real name="velocity_sensing" value="76.378" exact_value="0x4298C183" />
+<par_real name="velocity_sensing" value="41.7323"
+exact_value="0x4226EDDB" />
 <AMPLITUDE_ENVELOPE>
 <par_bool name="free_mode" value="no" />
 <par name="env_points" value="4" />
