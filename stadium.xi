@@ -14,7 +14,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </BASE_PARAMETERS>
 <INSTRUMENT>
 <INFO>
-<string name="name">Velveteen</string>
+<string name="name">Stadium</string>
 <string name="author">Graham Breed</string>
 <string name="comments">FM organ with chiff and distortion</string>
 <par name="type" value="11" />
@@ -67,6 +67,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </AMPLITUDE_LFO>
@@ -101,6 +103,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -142,6 +146,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FILTER_LFO>
@@ -1080,6 +1086,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
@@ -1229,6 +1237,8 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 <par name="randomness_amplitude" value="0" />
 <par name="randomness_frequency" value="0" />
 <par_real name="delay" value="0" exact_value="0x00000000" />
+<par_real name="fadein" value="0" exact_value="0x00000000" />
+<par_real name="fadeout" value="10" exact_value="0x41200000" />
 <par name="stretch" value="64" />
 <par_bool name="continous" value="no" />
 </FREQUENCY_LFO>
