@@ -14,7 +14,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </BASE_PARAMETERS>
 <INSTRUMENT>
 <INFO>
-<string name="name"></string>
+<string name="name">Modulated</string>
 <string name="author"></string>
 <string name="comments"></string>
 <par name="type" value="0" />
@@ -1020,12 +1020,12 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </FREQUENCY_PARAMETERS>
 <FILTER_PARAMETERS>
 <par name="velocity_sensing_amplitude" value="63" />
-<par name="velocity_sensing" value="89" />
+<par name="velocity_sensing" value="36" />
 <FILTER>
 <par name="category" value="0" />
 <par name="type" value="2" />
-<par_real name="basefreq" value="3872.12" exact_value="0x457201F8" />
-<par_real name="baseq" value="2.5864" exact_value="0x40258790" />
+<par_real name="basefreq" value="272.627" exact_value="0x4388503E" />
+<par_real name="baseq" value="1.78253" exact_value="0x3FE429FF" />
 <par name="stages" value="0" />
 <par_real name="freq_tracking" value="0" exact_value="0x00000000" />
 <par_real name="gain" value="0" exact_value="0x00000000" />
@@ -1080,7 +1080,7 @@ version-revision="6" ZynAddSubFX-author="Nasca Octavian Paul">
 </FILTER_PARAMETERS>
 <FM_PARAMETERS>
 <par name="input_voice" value="-1" />
-<par_real name="volume" value="77.1654" exact_value="0x429A54A9" />
+<par_real name="volume" value="69.2913" exact_value="0x428A952A" />
 <par name="volume_damp" value="64" />
 <par name="velocity_sensing" value="89" />
 <par_bool name="amp_envelope_enabled" value="yes" />
